@@ -15,7 +15,8 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",  # Agrega tu origen local si es necesario
-    "https://prototipo-web-titulacion.vercel.app",  # Agrega la URL de tu aplicación en Vercel
+    "https://prototipo-web-titulacion.vercel.app",
+    "https://cardiovascular-disease-app.vercel.app", /# Agrega la URL de tu aplicación en Vercel
 ]
 
 app.add_middleware(
